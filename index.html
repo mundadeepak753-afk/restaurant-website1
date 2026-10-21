@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">    
+    <style>
+        ul li a{
+            color:white;
+            
+        }
+         
+        
+        .img{
+            background-image:url('image/back.jpg');
+            height:300px;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            margin-top:65px;
+            
+         }
+         #menu_btn
+         {
+             font-size:14px;
+             border-radius:2px;
+             border:none;
+             background-color:#eb8c28;
+             color: white;
+         }
+         #book_btn{
+             font-size:14px;
+             border:1px solid white;
+             border-radius:2px;                        
+             background:transparent !important;
+             color:white;
+         }
+         
+         #order_btn{
+             background-color:#eb8c28;
+             width:100%;
+             color:white;
+             border:none;
+             border-radius:8px;
+         }
+         
+         .box_d
+         {
+             border:1px solid white;
+             border-radius:0 0 10px 10px;  
+             box-shadow:2px 0 7px gray;       
+         }
+         
+         #gread_icon
+         {
+             font-size:40px;
+             border:1px solid black;
+             width:35px !important;
+             height:35px !important;
+             border-radius:10px;
+             background-color:#eb8c28;
+             color: white;
+             
+         }
+         @media screen and (min-width:1024px)
+         {
+             .img{
+                 height:400px;
+             }
+             .img p{
+                 font-size:20px !important;
+                 
+             }
+             .img h1{
+                font-size:50px !important;
+             }
+             
+             #menu_btn
+         {
+             font-size:25px;
+             border-radius:2px;
+             border:none;
+             background-color:#eb8c28;
+             margin-right:20px;
+         }
+         #book_btn{
+             font-size:25px;
+             border-radius:2px;         
+         }
+         #food_logo 
+         {
+             font-size:100px;
+         }
+         }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-0 fixed-top bg-secondary">
+        <nav class="navbar navbar-expand-md nav nav-tabs bg-secondary">
+            <a href="index.html">
+                <img src="image/food.png" alt="food" width="100px;">
+            </a>
+            <span class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                &#9776
+            </span>
+            
+           <div class="collapse navbar-collapse" id="menu">
+               <ul class="navbar-nav">
+                   <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+               </ul>
+           </div>
+        </nav>
+    </div>
+    <!-- nav end -->
+    
+    <!-- laptop start -->
+   <div class="container-fluid pt-3 img">
+       <div class="row">
+        <div class="col-6">
+        <p style="color:white; font-size:13px; margin-buttom:0;">Welcome to Foodie restaurant</p>
+        <h1 style="color: white; font-family:sen-serif; font-weight:800; font-size:24px;">Delicious Food</h1>
+        <h1 style="color: white; font-family:sen-serif; font-weight:800; color:#eb8c28; font-size:24px;">Fresh & Healthy</h1>
+        <p style="color:white; font-size:12px margin-buttom:0;">We serve the best quality food made with fresh ingredients Enjoy a great dining experience with your family,</p>
+        </div>
+        <div class="col-6">
+            
+        </div>
+        </div>
+        <button id="menu_btn">View Menu -> </button>.  
+        <button id="book_btn">Book a Table</button>
+    </div>
+    
+    
+    <!-- Image code end -->
+    <!-- layout start -->
+    
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <span style="font-size:24px;"><i class="fas fa-cookie-bite"></i></span>
+                <h5>fresh Ingredients</h5>
+                <p>We use only fresh & quality ingredients
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <span style="font-size:24px;"><i class="fas fa-heart"></i></span>
+                <h5>Health Food</h5>
+                <p>Tasty and healthy food for a better life
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <span style="font-size:24px;"><i class="fas fa-user-check"></i></i></span>
+                <h5>Expert chefs</h5>
+                <p>Our chefs are highly experienced 
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <span style="font-size:24px;"><i class="fas fa-star"></i></i></span>
+                <h5>Best service</h5>
+                <p>Your satisfaction is our priority 
+                </p>
+            </div>
+        </div>     
+    </div>
+    
+    <!-- popular -->
+    
+    <div class="jumbotron ">
+        <div class="container-fluid text-center">
+        <h5 style="color:#eb8c28; font-weight:500;">Our Popular Dishes</h5>
+        <h3 style="font-weight:700;">Taste the Best from Our Special Menu
+        </h3>
+        </div>        
+        <div class="row">
+            <!-- first -->
+            <div class="col-md-3 p-3">
+                <div class="container-fluid bg-light box_d">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                          <img src="image/burger.jpg" alt="burger" width="100%";>                         
+                        </div>
+                    </div>  
+                        <div class="row mt-3 p-2">
+                            <div class="col-12">
+                                <h4>Classic Burger</h3>
+                                <h5>₹120</h4>
+                                <button id="order_btn">Order Now</button>
+                            </div>
+                        </div>                    
+                   </div>                    
+                </div>
+                <!-- second   -->
+                <div class="col-md-3 p-3">
+                <div class="container-fluid bg-light box_d">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                          <img src="image/pizza.jpg" alt="burger" width="100%";>                         
+                        </div>
+                    </div>                    
+                        <div class="row mt-3 p-2">
+                            <div class="col-12">
+                                <h4>Veg Pizza</h3>
+                                <h5>₹180</h4>
+                                <button id="order_btn">Order Now</button>
+                            </div>
+                        </div>                    
+                   </div>                    
+                </div>                
+                <!--  third-->
+                <div class="col-md-3 p-3">
+                <div class="container-fluid bg-light box_d">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                          <img src="image/pasta.jpg" alt="burger" width="100%";>                         
+                        </div>
+                    </div>                 
+                        <div class="row mt-3 p-2">
+                            <div class="col-12">
+                                <h4>Pasta Alfredo</h3>
+                                <h5>₹150</h4>
+                                <button id="order_btn">Order Now</button>
+                            </div>
+                        </div>                    
+                   </div>                    
+                </div>
+                
+                         
+                <!-- fourth -->
+                <div class="col-md-3 p-3">
+                <div class="container-fluid bg-light box_d">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                          <img src="image/nodals.jpg" alt="burger" width="100%";>                         
+                        </div>
+                    </div>                 
+                        <div class="row mt-3 p-2">
+                            <div class="col-12">
+                                <h4>Veg Noodles</h3>
+                                <h5>₹150</h4>
+                                <button id="order_btn">Order Now</button>
+                            </div>
+                        </div>                    
+                   </div>                    
+                </div>
+                       
+               <!-- end -->
+            </div>
+        </div>
+        
+        <!-- why choose us-->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div>
+                        <img src="image/restaurant.jpg" alt="restaurant" width="100%;">
+                    </div>
+                </div>
+                <div class="col-md-7 mt-2">
+                    <p style="color:#eb8c28; font-weight:500; font-size:20px;">Why choose Us </p>
+                    <h3 style="font-weight:600;">We Make Great Food</h3>
+                    <p>At Foodie we believe that good food brings people together we use fresh ingredients. traditional recipes and modern techniques to give you the best taste and experience.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span id="gread_icon"><i class="fas fa-leaf"></i></span>
+                                </div>
+                                <div class="col-9">
+                                    <h4>Fresh & Natural</h4>
+                                    <p>100% fresh ingredients every day</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span id="gread_icon"><i class="fas fa-leaf"></i></span>
+                                </div>
+                                <div class="col-9">
+                                    <h4>Fresh & Natural</h4>
+                                    <p>100% fresh ingredients every day</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- footer -->
+        
+       <footer>
+            <div class="row bg-dark">
+                <div class="col-4">
+                    <div class="container">
+                      
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <span><a href="#" style="color:white; margin-right:4px;">About</a></span>
+                    <span><a href="#" style="color:white;">About</a></span>
+                    <span><a href="#" style="color:white;">About</a></span>
+                </div>
+                <div class="col-4 pt-2">
+                    <div class="container">
+                        <span style="color:#eb8c28;"><i class="fab fa-instagram"></i></span>
+                        <span style="color:#eb8c28;"><i class="fab fa-facebook"></i></span>
+                        <span style="color:#eb8c28;"><i class="fab fa-twitter"></i></span>
+                    </div>
+                </div>
+                
+                <div class="row bg-dark">
+                    <div class="col-12 mt-3">
+                        <div class="container">
+                            <p style="color: white; font-size:12px; margin-left:160px;"><i class="fas fa-copyright"></i>Foodie Restaurant All Right reserved.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer> 
+
+</body>
+</html>
